@@ -76,11 +76,12 @@ function test_input($data)
 function rezolvareaEcuatiei($a, $b, $c)
 {
     if ($a == $b && $b == $c && $a == 0) {
-        echo "Imposibil de rezolvat!";
+        return "Imposibil de rezolvat!";
     }
     if ($a > 0) {
         // calculam delta:
         $delta = pow($b, 2) - 4 * $a * $c;
+        echo $delta;
         // calculam radacinile:
         if ($delta > 0) {
             $x1 = (-$b + sqrt($delta)) / (2 * $a);
@@ -94,8 +95,12 @@ function rezolvareaEcuatiei($a, $b, $c)
             return array($complex);
         }
     } else if ($a == 0) {
-        $x1 = (-$c) / $b;
-        return array($x1);
+        if ($b != 0) {
+            $x1 = (-$c) / $b;
+            return array($x1);
+        } else if ($b == 0 && $b != "") {
+            echo "!Imposibil de calculat! (coeficientul b trebuie sa fie diferit de 0)";
+        }
     } else if ($a < 0) {
         echo "!Coeficientul a > 0!";
     }
@@ -130,7 +135,7 @@ function rezolvareaEcuatiei($a, $b, $c)
         </form>
         <?php echo "Results:" ?>
         <?php
-        if (is_nan(array_sum($radacinile))) {
+        if (!is_nan(array_sum($radacinile)) && array_sum($radacinile) != 0) {
             for ($i = 0; $i < sizeof($radacinile); $i++) {
                 echo "(x" . "$i: " . $radacinile[$i] . " ) ";
             }
