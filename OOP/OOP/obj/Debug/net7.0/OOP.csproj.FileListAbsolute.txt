@@ -1,0 +1,15 @@
+D:\Programare munca\Programare C#\Shape\OOP\OOP\bin\Debug\net7.0\OOP.exe
+D:\Programare munca\Programare C#\Shape\OOP\OOP\bin\Debug\net7.0\OOP.deps.json
+D:\Programare munca\Programare C#\Shape\OOP\OOP\bin\Debug\net7.0\OOP.runtimeconfig.json
+D:\Programare munca\Programare C#\Shape\OOP\OOP\bin\Debug\net7.0\OOP.dll
+D:\Programare munca\Programare C#\Shape\OOP\OOP\bin\Debug\net7.0\OOP.pdb
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\OOP.csproj.AssemblyReference.cache
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\OOP.AssemblyInfoInputs.cache
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\OOP.AssemblyInfo.cs
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\OOP.csproj.CoreCompileInputs.cache
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\OOP.dll
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\refint\OOP.dll
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\OOP.pdb
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\OOP.genruntimeconfig.cache
+D:\Programare munca\Programare C#\Shape\OOP\OOP\obj\Debug\net7.0\ref\OOP.dll
