@@ -2,7 +2,8 @@
 {
     public class Rectangle : Shape
     {
-        protected double side1, side2;
+        public double side1 { get; set; }
+        public double side2 { get; set; }
         public double rezultat;
 
         //  Constructor
@@ -30,12 +31,6 @@
         public override string ToString()
         {
             return string.Format("{0:0.00}", rezultat);
-        }
-
-        public void DesenDreptunghi()
-        {
-            int lungime = Convert.ToInt32(side1);
-            char[,] rectangle = new char[side1, side2];
         }
     }
 }
